@@ -13,7 +13,6 @@ import {
 import vibeMusical from "../../assets/images/vibeMusical.png";
 import NoteTaker from "../../assets/images/NoteTaker.PNG";
 import TeamProfile from "../../assets/images/TeamProfile.PNG";
-import project from "../../assets/images/project.PNG";
 import weatherDashboard from "../../assets/images/weatherDashboard.png";
 import FitnessTracker from "../../assets/images/FitnessTracker.PNG";
 import EmployeeTracker from "../../assets/images/EmployeeTracker.PNG";
@@ -23,12 +22,13 @@ const Projects = () => {
     <MDBContainer className="mt-5">
       <MDBCardGroup deck className="mt-3">
         <MDBCard className="border border-dark">
-          <MDBCardImage
+          <a href="https://wellandgood.github.io/BCS-Project-1/">
+            <MDBCardImage
             style={{ width: "485px" }}
             src={vibeMusical}
             alt="vibe Musical"
             top
-          />
+          /> </a>
           <MDBCardBody>
             <MDBCardTitle tag="h5">Vibe Musical</MDBCardTitle>
             <MDBCardText>
@@ -47,12 +47,13 @@ const Projects = () => {
         </MDBCard>
 
         <MDBCard className="border border-dark">
-          <MDBCardImage
+          <a href="https://www.youtube.com/watch?v=bs42u_rFaGk">
+            <MDBCardImage
             className="img-fluid"
             src={EmployeeTracker}
             alt="Employee Tracker"
             top
-          />
+          /></a>
           <MDBCardBody>
             <MDBCardTitle tag="h5">Employee Tracker</MDBCardTitle>
             <MDBCardText>
@@ -71,13 +72,14 @@ const Projects = () => {
         </MDBCard>
 
         <MDBCard className="border border-dark">
-          <MDBCardImage
+          <a href="https://workout-trackersoft.herokuapp.com/?id=60e5d579fc4a390015893c6b">
+            <MDBCardImage
             style={{ height: "283px" }}
             className="img-fluid"
             src={FitnessTracker}
             alt="Fitness"
             top
-          />
+          /></a>
           <MDBCardBody>
             <MDBCardTitle tag="h5">Fitness Tracker</MDBCardTitle>
             <MDBCardText>
@@ -98,12 +100,12 @@ const Projects = () => {
       </MDBCardGroup>
       <MDBCardGroup deck className="mt-3">
         <MDBCard className="border border-dark">
-          <MDBCardImage
+          <a href="https://www.youtube.com/watch?v=K73ewNIAFtE"><MDBCardImage
             className="img-fluid"
             src={TeamProfile}
             alt="Team Generator"
             top
-          />
+          /></a>
           <MDBCardBody>
             <MDBCardTitle tag="h5">Team Profile Generator</MDBCardTitle>
             <MDBCardText>
@@ -122,13 +124,14 @@ const Projects = () => {
         </MDBCard>
 
         <MDBCard className="border border-dark">
-          <MDBCardImage
+          <a href="https://nevrard.github.io/Weather-Dashboard/">
+            <MDBCardImage
             style={{ height: "225px" }}
             className="img-fluid"
             src={weatherDashboard}
             alt="Weather"
             top
-          />
+          /></a>
           <MDBCardBody>
             <MDBCardTitle tag="h5">Weather Dashboard</MDBCardTitle>
             <MDBCardText>
@@ -147,13 +150,15 @@ const Projects = () => {
         </MDBCard>
 
         <MDBCard className="border border-dark">
+         
+          <a href="https://note-taker-app-nodejs.herokuapp.com/">
           <MDBCardImage
             style={{ height: "225px" }}
             className="img-fluid"
             src={NoteTaker}
             alt="NoteTker"
             top
-          />
+          /> </a>
           <MDBCardBody>
             <MDBCardTitle tag="h5">Note Taker</MDBCardTitle>
             <MDBCardText>
