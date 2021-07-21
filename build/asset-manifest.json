@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.b42da303.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.a80205ee.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.a80205ee.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.27e0f504.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.27e0f504.js.map",
+    "static/css/2.de974f25.chunk.css": "/React-Portfolio/static/css/2.de974f25.chunk.css",
+    "static/js/2.4a3421fb.chunk.js": "/React-Portfolio/static/js/2.4a3421fb.chunk.js",
+    "static/js/2.4a3421fb.chunk.js.map": "/React-Portfolio/static/js/2.4a3421fb.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.7384c7f1796891113c20a25c64c63f41.js": "/React-Portfolio/precache-manifest.7384c7f1796891113c20a25c64c63f41.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/2.de974f25.chunk.css.map": "/React-Portfolio/static/css/2.de974f25.chunk.css.map",
+    "static/css/main.b42da303.chunk.css.map": "/React-Portfolio/static/css/main.b42da303.chunk.css.map",
+    "static/js/2.4a3421fb.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.4a3421fb.chunk.js.LICENSE.txt",
+    "static/media/EmployeeTracker.PNG": "/React-Portfolio/static/media/EmployeeTracker.e620eb15.PNG",
+    "static/media/Evrard.png": "/React-Portfolio/static/media/Evrard.47846ae1.png",
+    "static/media/FitnessTracker.PNG": "/React-Portfolio/static/media/FitnessTracker.c0961fbd.PNG",
+    "static/media/NDANGA_Evrard.pdf": "/React-Portfolio/static/media/NDANGA_Evrard.737508cd.pdf",
+    "static/media/NoteTaker.PNG": "/React-Portfolio/static/media/NoteTaker.51615e6b.PNG",
+    "static/media/TeamProfile.PNG": "/React-Portfolio/static/media/TeamProfile.1caffb23.PNG",
+    "static/media/mdb.css": "/React-Portfolio/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/React-Portfolio/static/media/fa-solid-900.e8a427e1.woff2",
+    "static/media/project.PNG": "/React-Portfolio/static/media/project.a76e7016.PNG",
+    "static/media/vibeMusical.png": "/React-Portfolio/static/media/vibeMusical.98fbf13d.png",
+    "static/media/weatherDashboard.png": "/React-Portfolio/static/media/weatherDashboard.7d2b8549.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27e0f504.js",
+    "static/css/2.de974f25.chunk.css",
+    "static/js/2.4a3421fb.chunk.js",
+    "static/css/main.b42da303.chunk.css",
+    "static/js/main.a80205ee.chunk.js"
+  ]
+}

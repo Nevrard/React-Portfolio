@@ -18,11 +18,12 @@ const AboutMe = () => {
           <p style={{ fontSize: "27px" }}>
             Hello, my name is Evrard NDANGA. I have a master Degree in Information technology.
             I have been workingin the I.T field since 2015, where I have got al lot of experience , new skills in 
-            System administration , Networking and Database administration.
+            System administration , Networking and Database administration.<br/>
 
             I am curently enrolled in a Full stack development Bootcamp from Carleton University.
 
           </p>
+          
           <p style={{ fontSize: "27px" }}>
             I am passionate with everything that goes with I.T  , learning new skills and working with Teams with
             different backgrounds in order to learn and share new skills.
