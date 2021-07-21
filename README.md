@@ -12,7 +12,8 @@
 
 ## General information
 
-The following application is a portfolio containing a number of my recent assignments and projects, This is a re-work of our portfolio using the React framework in place of static front-end files,which will help set you apart from other developers whose portfolios don’t use the latest technologies
+The following application is a portfolio containing a number of my recent assignments and projects, This is a re-work of our portfolio using the React framework in place of static front-end files,which will help set you apart from other developers whose portfolios don’t use the latest technologies.
+By clicking on the Image , ou are directed to the deployed application or to the demo video of the application
 
 ## Specifications
 
