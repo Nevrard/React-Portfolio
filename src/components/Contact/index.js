@@ -1,40 +1,96 @@
-import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import React, { useState } from 'react';
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import './style.css';
+
+import { checkMessage, validateEmail } from '../../utils/helpers';
 
 const ContactInfo = () => {
+    const [email, setEmail] = useState('');
+    const [Name, setName] = useState('');
+    const [Message, setMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+  
+    const handleInputChange = (e) => {
+      // Getting the value and name of the input which triggered the change
+      const { target } = e;
+      const inputType = target.name;
+      const inputValue = target.value;
+  
+      // Based on the input type, we set the state of either email, username, and password
+      if (inputType === 'email') {
+        setEmail(inputValue);
+      } else if (inputType === 'Name') {
+        setName(inputValue);
+      } else {
+        setMessage(inputValue);
+      }
+    };
+  
+    const handleFormSubmit = (e) => {
+      // Preventing the default behavior of the form submit (which is to refresh the page)
+      e.preventDefault();
+  
+      // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+      if (!validateEmail(email) || !Name) {
+        setErrorMessage('Check Your Email or Name is invalid');
+        // We want to exit out of this code block if something is wrong so that the user can correct it
+        return;
+        // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+      }
+      if (!checkMessage(Message)) {
+        setErrorMessage(
+          `Your Message cannot be empty`
+        );
+        return;
+      }
+      alert(`Dear ${Name}, Your Message was sent successfull, Will get back to You Shortly`);
+  
+      // If everything goes according to plan, we want to clear out the input after a successful registration.
+      setName('');
+      setMessage('');
+      setEmail('');
+    };
+
   return (
     <MDBContainer className="mt-5">
       <MDBRow>
         <MDBCol md="12" className="text-center">
-          <h2>Contact Information</h2>
-          <hr class="solid bg-dark" />
-          <img
-            style={{ height: "250px" }}
-            src="https://user-images.githubusercontent.com/64516562/97791200-5b411100-1b95-11eb-97e6-8efaef754975.JPG"
-            class="pr-4 pb-3 img-fluid"
-            alt="Collin Hodgson"
-          />
-          <h4>
-            I recently gradated a Full Stack Web Development Bootcamp at the
-            University of Utah. I was given a certificate of completion from the
-            University. Now I am actively looking for a Junior Web Development
-            position, below I have linked my e-mail and cell phone number.
-            Please feel free to contact me at any time and if I do not
-            immediately respond I will respond within the next buisness day.
-            Thank you!
-          </h4>
-          <hr className="hr-light w-25" />
-          <h3>Cell Phone</h3>
-          <hr className="hr-dark w-25" />
-          <a href="tel:801-792-5502">
-            <MDBIcon icon="phone-alt" /> 801-792-5502
-          </a>
-          <hr className="hr-light w-25" />
-          <h3>E-mail</h3>
-          <hr className="hr-dark w-25" />
-          <a href="mailto:collinhodgs@gmail.com">
-            <MDBIcon icon="envelope" /> collinhodgs@gmail.com
-          </a>
+        <div>
+      <h1 className="title">Contact</h1>
+      <form className="form">
+        <label for="Name">First and Last Name</label>
+        <input
+          value={Name}
+          name="Name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Type your Name"
+        />
+        <label for="email">E-Mail</label>
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="Your Email"
+        />
+        
+        <label for="Message">Message</label>
+        <textarea
+          value={Message}
+          name="Message"
+          onChange={handleInputChange}
+          type="Textarea"
+          placeholder="Type your Message"
+        />
+        <button type="button" onClick={handleFormSubmit}>Submit</button>
+      </form>
+      {errorMessage && (
+        <div className="error">
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+    </div>
         </MDBCol>
       </MDBRow>
     </MDBContainer>

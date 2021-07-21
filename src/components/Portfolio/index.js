@@ -10,6 +10,13 @@ import {
   MDBCardTitle,
   MDBCardText,
 } from "mdbreact";
+import vibeMusical from "../../assets/images/vibeMusical.png";
+import NoteTaker from "../../assets/images/NoteTaker.PNG";
+import TeamProfile from "../../assets/images/TeamProfile.PNG";
+import project from "../../assets/images/project.PNG";
+import weatherDashboard from "../../assets/images/weatherDashboard.png";
+import FitnessTracker from "../../assets/images/FitnessTracker.PNG";
+import EmployeeTracker from "../../assets/images/EmployeeTracker.PNG";
 
 const Projects = () => {
   return (
@@ -18,19 +25,18 @@ const Projects = () => {
         <MDBCard className="border border-dark">
           <MDBCardImage
             style={{ width: "485px" }}
-            src="https://github.com/AtimaB/The-Fight-Club/raw/master/public/assets/images/welcomePage.png"
-            alt="Fight Club"
+            src={vibeMusical}
+            alt="vibe Musical"
             top
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">The Fight Club</MDBCardTitle>
+            <MDBCardTitle tag="h5">Vibe Musical</MDBCardTitle>
             <MDBCardText>
-              As gamers we wanted to create a game that we could play with our
-              friends and share with others so they could play with their
-              friends
+            Vibe Musical, a brand new app that teaches you all about music. We log instruments,
+            and gather their history. 
             </MDBCardText>
             <MDBBtn
-              href="https://github.com/AtimaB/The-Fight-Club"
+              href="https://github.com/Nevrard/BCS-Project-1"
               color="primary"
               size="md"
             >
@@ -43,18 +49,18 @@ const Projects = () => {
         <MDBCard className="border border-dark">
           <MDBCardImage
             className="img-fluid"
-            src="https://user-images.githubusercontent.com/64516562/94870920-00858f80-0406-11eb-9891-00634c7764d1.PNG"
-            alt="Budget"
+            src={EmployeeTracker}
+            alt="Employee Tracker"
             top
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">Budget Tracker</MDBCardTitle>
+            <MDBCardTitle tag="h5">Employee Tracker</MDBCardTitle>
             <MDBCardText>
-              An app that allows the user to track their withdrawals and
-              deposits with or without a data/internet connection
+            The applicaction was built as tool for a an Employer to be able to manage his team, 
+            differents departments , roles within his organisation
             </MDBCardText>
             <MDBBtn
-              href="https://github.com/Collin-Hodgson/Budget-Trackers"
+              href="https://github.com/Nevrard/Employee-Tracker"
               color="primary"
               size="md"
             >
@@ -68,7 +74,7 @@ const Projects = () => {
           <MDBCardImage
             style={{ height: "283px" }}
             className="img-fluid"
-            src="https://user-images.githubusercontent.com/64516562/97783621-b1469200-1b5e-11eb-8d90-935a7a2bcbae.PNG"
+            src={FitnessTracker}
             alt="Fitness"
             top
           />
@@ -80,7 +86,7 @@ const Projects = () => {
               edit the workout after and view past workouts.
             </MDBCardText>
             <MDBBtn
-              href="https://github.com/Collin-Hodgson/WorkoutTracker"
+              href="https://github.com/Nevrard/Workout-Tracker"
               color="primary"
               size="md"
             >
@@ -94,7 +100,7 @@ const Projects = () => {
         <MDBCard className="border border-dark">
           <MDBCardImage
             className="img-fluid"
-            src="https://user-images.githubusercontent.com/64516562/97784659-c541c200-1b65-11eb-98ee-26da26acf883.PNG"
+            src={TeamProfile}
             alt="Team Generator"
             top
           />
@@ -105,7 +111,7 @@ const Projects = () => {
               employees with their employee information
             </MDBCardText>
             <MDBBtn
-              href="https://github.com/Collin-Hodgson/teamgenerator"
+              href="https://github.com/Nevrard/Team-Profile-Generator"
               color="primary"
               size="md"
             >
@@ -119,7 +125,7 @@ const Projects = () => {
           <MDBCardImage
             style={{ height: "225px" }}
             className="img-fluid"
-            src="https://user-images.githubusercontent.com/64516562/97785431-882bfe80-1b6a-11eb-8f73-a79d66dce85a.png"
+            src={weatherDashboard}
             alt="Weather"
             top
           />
@@ -130,7 +136,7 @@ const Projects = () => {
               five day forecast for any city on earth
             </MDBCardText>
             <MDBBtn
-              href="https://github.com/Collin-Hodgson/weatherdashboard"
+              href="https://github.com/Nevrard/Weather-Dashboard"
               color="primary"
               size="md"
             >
@@ -144,19 +150,19 @@ const Projects = () => {
           <MDBCardImage
             style={{ height: "225px" }}
             className="img-fluid"
-            src="https://user-images.githubusercontent.com/64516562/97785992-063dd480-1b6e-11eb-8040-7ca005d7830b.png"
-            alt="Bartender"
+            src={NoteTaker}
+            alt="NoteTker"
             top
           />
           <MDBCardBody>
-            <MDBCardTitle tag="h5">8 Bit Bartender</MDBCardTitle>
+            <MDBCardTitle tag="h5">Note Taker</MDBCardTitle>
             <MDBCardText>
-              A reto-themed guide to cocktail recipes and nutritonal
-              information. Users submit cocktails and the nutrition/ingredients
-              are provided.
+            This application is built to help user to take notes and stores them in the way
+             the user can access them anytime. User can create a new note by specifying a Title,
+             type the content.
             </MDBCardText>
             <MDBBtn
-              href="https://github.com/Eelektrick/8-bit-bartender"
+              href="https://github.com/Nevrard/Note-Taker"
               color="primary"
               size="md"
             >
@@ -166,81 +172,7 @@ const Projects = () => {
           </MDBCardBody>
         </MDBCard>
       </MDBCardGroup>
-      <MDBCardGroup deck className="mt-3">
-        <MDBCard className="border border-dark">
-          <MDBCardImage
-            style={{ height: "205px" }}
-            src="https://user-images.githubusercontent.com/64516562/97790062-321b8300-1b8b-11eb-8a0e-079e54b31341.png"
-            alt="Planner"
-            top
-          />
-          <MDBCardBody>
-            <MDBCardTitle tag="h5">Day Planner</MDBCardTitle>
-            <MDBCardText>
-              This is a work day plan app. It has hours sections on it so when
-              the user enters a description for each hour and save it the
-              description will stay until erased.
-            </MDBCardText>
-            <MDBBtn
-              href="https://github.com/Collin-Hodgson/dayplanner"
-              color="primary"
-              size="md"
-            >
-              <MDBIcon icon="clone left" className="mr-1" />
-              View Project
-            </MDBBtn>
-          </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard className="border border-dark">
-          <MDBCardImage
-            src="https://user-images.githubusercontent.com/64516562/97790068-3a73be00-1b8b-11eb-94f9-459018a10c80.PNG"
-            alt="Password"
-            top
-          />
-          <MDBCardBody>
-            <MDBCardTitle tag="h5">Password Generator</MDBCardTitle>
-            <MDBCardText>
-              This app allows the user to generate a random password with
-              criteria of their choosing. This app utilizes numbers, letters,
-              and special characters.
-            </MDBCardText>
-            <MDBBtn
-              href="https://github.com/Collin-Hodgson/passwordgenerator"
-              color="primary"
-              size="md"
-            >
-              <MDBIcon icon="clone left" className="mr-1" />
-              View Project
-            </MDBBtn>
-          </MDBCardBody>
-        </MDBCard>
-
-        <MDBCard className="border border-dark">
-          <MDBCardImage
-            style={{ height: "205px" }}
-            src="https://github.com/denismatijevic/summerlinlabs/raw/master/public/assets/Mission.png"
-            alt="Summerlin Labs"
-            top
-          />
-          <MDBCardBody>
-            <MDBCardTitle tag="h5">Summerlin Labs </MDBCardTitle>
-            <MDBCardText>
-              This is my final project for the program. A local business owner
-              tasked my group with creating a website for their health and
-              testing clinic.
-            </MDBCardText>
-            <MDBBtn
-              href="https://github.com/denismatijevic/summerlinlabs"
-              color="primary"
-              size="md"
-            >
-              <MDBIcon icon="clone left" className="mr-1" />
-              View Project
-            </MDBBtn>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCardGroup>
+      
     </MDBContainer>
   );
 };

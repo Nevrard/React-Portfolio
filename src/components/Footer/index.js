@@ -9,7 +9,7 @@ function Footer() {
           <li class="list-inline-item">
             <a
               class="btn-floating btn-fb mx-1"
-              href="https://github.com/Collin-Hodgson"
+              href="https://github.com/Nevrard"
             >
               <i class="fab fa-github"> </i>
             </a>
@@ -17,7 +17,7 @@ function Footer() {
           <li class="list-inline-item">
             <a
               class="btn-floating btn-li mx-1"
-              href="https://www.linkedin.com/in/collinhodgson?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbaDSOG4pSUKwACfo%2Bmpf9w%3D%3D"
+              href="linkedin.com/in/evrard-ndanga-655306a7"
             >
               <i class="fab fa-linkedin-in"> </i>
             </a>
@@ -26,10 +26,10 @@ function Footer() {
       </div>
 
       <div class="footer-copyright text-center py-3">
-        © 2020 Copyright:
+        © 2021 Copyright:
         <a href="https://github.com/Collin-Hodgson/React-Portfolio">
           {" "}
-          Collin P. Hodgson
+          Evrard NDANGA
         </a>
       </div>
     </footer>

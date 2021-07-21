@@ -1,0 +1,42 @@
+.form {
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  background-color:rgb(250, 244, 237);
+}
+.title{
+  font-weight: bolder;
+  text-align: left;
+}
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.form label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom:5px;
+  width: 50%;
+}
+
+.form textarea{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 50%;
+}
+
+.form button{
+  margin-top: 5px;
+  margin-bottom: 20px;
+ float: left;
+
+}
+.error{
+  text-align: left;
+  font-weight: bold;
+}
