@@ -7,6 +7,10 @@
 .skills{
   background-color:rgb(250, 244, 237);
 }
+img{
+  margin-left: 3px;
+  margin-top: 5px;
+}
 
 .title{
   font-weight: bolder;
