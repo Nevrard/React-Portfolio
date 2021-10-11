@@ -20,7 +20,7 @@ const AboutMe = () => {
             I have been workingin the I.T field since 2015, where I have got al lot of experience , new skills in 
             System administration , Networking and Database administration.<br/>
 
-            I am curently enrolled in a Full stack development Bootcamp from Carleton University.
+            I recently graduatedfrom a Full stack development Bootcamp from Carleton University.
 
           </p>
           

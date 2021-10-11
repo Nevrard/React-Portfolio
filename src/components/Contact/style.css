@@ -9,7 +9,13 @@
 }
 img{
   margin-left: 3px;
-  margin-top: 5px;
+  margin-top: 7px;
+ 
+}
+.titleSkills{
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 7px;
 }
 
 .title{

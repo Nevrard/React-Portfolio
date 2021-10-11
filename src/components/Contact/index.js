@@ -95,7 +95,7 @@ const ContactInfo = () => {
         <MDBCol md="5" className="text-center">
         <h1 className="title">Skills</h1>
         <div className="skills">
-          <h4 className="title"> <span role="img">💻</span>Languages  and tools:</h4>
+          <h4 className="titleSkills"> <span role="img">💻</span>Languages  and tools:</h4>
             <img alt="html" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
             <img alt="html" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
             <img alt="html" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
@@ -103,7 +103,7 @@ const ContactInfo = () => {
             <img alt="html" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
             <img alt="html" src="https://img.shields.io/badge/MongoDB-00000F?style=for-the-badge&logo=MongoDB&logoColor=white"/>
         
-          <h4 className="title"> <span role="img">🚀</span>Frameworks Known:</h4>   
+          <h4 className="titleSkills"> <span role="img">🚀</span>Frameworks Known:</h4>   
 
           <img alt="html" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
             <img alt="html" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"/>
@@ -111,7 +111,8 @@ const ContactInfo = () => {
             <img alt="html" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/> 
             <img alt="html" src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/> 
         
-          <h4 className="title"> <span role="img">🚀</span>IDE's Known:</h4>  
+          <h4 className="titleSkills"> <span role="img">🚀</span>IDE's Known:</h4>  
+            <img alt="html" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/> 
         
         </div>
         

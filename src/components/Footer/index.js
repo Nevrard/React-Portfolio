@@ -21,6 +21,16 @@ function Footer() {
             >
               <i class="fab fa-linkedin-in"> </i>
             </a>
+
+            <a
+              class="btn-floating btn-li mx-1"
+              href="mailto:adam@gmail.com"
+              font
+            > <strong>
+              E-mail : 
+              </strong>
+               ndangaevrard@gmail.com
+            </a>
           </li>
         </ul>
       </div>
@@ -31,6 +41,7 @@ function Footer() {
           {" "}
           Evrard NDANGA
         </a>
+        
       </div>
     </footer>
   );
