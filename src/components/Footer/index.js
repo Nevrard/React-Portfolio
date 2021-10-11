@@ -11,15 +11,15 @@ function Footer() {
               class="btn-floating btn-fb mx-1"
               href="https://github.com/Nevrard"
             >
-              <i class="fab fa-github"> </i>
+              <i class="fab fa-github"> </i> |
             </a>
           </li>
           <li class="list-inline-item">
             <a
               class="btn-floating btn-li mx-1"
-              href="linkedin.com/in/evrard-ndanga-655306a7"
+              href="https://www.linkedin.com/in/evrard-ndanga/"
             >
-              <i class="fab fa-linkedin-in"> </i>
+              <i class="fab fa-linkedin-in"> </i> |
             </a>
 
             <a
