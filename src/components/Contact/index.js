@@ -54,43 +54,50 @@ const ContactInfo = () => {
   return (
     <MDBContainer className="mt-5">
       <MDBRow>
-        <MDBCol md="12" className="text-center">
-        <div>
-      <h1 className="title">Contact</h1>
-      <form className="form">
-        <label for="Name">First and Last Name</label>
-        <input
-          value={Name}
-          name="Name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Type your Name"
-        />
-        <label for="email">E-Mail</label>
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="Your Email"
-        />
-        
-        <label for="Message">Message</label>
-        <textarea
-          value={Message}
-          name="Message"
-          onChange={handleInputChange}
-          type="Textarea"
-          placeholder="Type your Message"
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
-      {errorMessage && (
-        <div className="error">
-          <p className="error-text">{errorMessage}</p>
+        <MDBCol md="7" className="text-center">
+              <div>
+                      <h1 className="title">Contact</h1>
+                      <form className="form">
+                                <label for="Name">First and Last Name</label>
+                                <input
+                                  value={Name}
+                                  name="Name"
+                                  onChange={handleInputChange}
+                                  type="text"
+                                  placeholder="Type your Name"
+                                />
+                                <label for="email">E-Mail</label>
+                                <input
+                                  value={email}
+                                  name="email"
+                                  onChange={handleInputChange}
+                                  type="email"
+                                  placeholder="Your Email"
+                                />
+                                
+                                <label for="Message">Message</label>
+                                <textarea
+                                  value={Message}
+                                  name="Message"
+                                  onChange={handleInputChange}
+                                  type="Textarea"
+                                  placeholder="Type your Message"
+                                />
+                                <button type="button" onClick={handleFormSubmit}>Submit</button>
+                      </form>
+                      {errorMessage && (
+                        <div className="error">
+                          <p className="error-text">{errorMessage}</p>
+                        </div>
+                      )}
+            </div>
+        </MDBCol>
+        <MDBCol md="4" className="text-center">
+        <h1 className="title">Skills</h1>
+        <div className="skills">
+          <h2 className="Skillstitle">Languages  and tools</h2>
         </div>
-      )}
-    </div>
+        
         </MDBCol>
       </MDBRow>
     </MDBContainer>

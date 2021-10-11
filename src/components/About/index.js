@@ -27,7 +27,7 @@ const AboutMe = () => {
           <p style={{ fontSize: "27px" }}>
             I am passionate with everything that goes with I.T  , learning new skills and working with Teams with
             different backgrounds in order to learn and share new skills.
-            As Hobbies , I love  playing basketball and leastening mesic
+            As Hobbies , I love  playing basketball and listening music
 
           </p>
         </MDBCol>
